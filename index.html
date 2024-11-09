@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Flight Booking</h1>
+
+        <div id="flight-details">
+            <h2>Available Flights</h2>
+            <div id="flight-prices">
+                <!-- Prices will be displayed here -->
+            </div>
+        </div>
+
+        <div id="upi-section">
+            <h2>Pay for Your Flight</h2>
+            <p>Select your UPI method to complete the payment.</p>
+            <button onclick="payWithUPI()">Pay with UPI</button>
+        </div>
+    </div>
+
+    <!-- Link to general JS file -->
+    <script src="script.js"></script>
+    <!-- Link to flight-related API JS file -->
+    <script src="flight-api/flight-api.js"></script>
+    
+</body>
+</html>
